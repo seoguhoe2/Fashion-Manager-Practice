@@ -1,9 +1,9 @@
-package fashionmanager.lee.develop.controller;
+package fashionmanager.controller;
 
-import fashionmanager.lee.develop.dto.CommentDTO;
-import fashionmanager.lee.develop.dto.CommentPostDTO;
-import fashionmanager.lee.develop.dto.CommentReactionDTO;
-import fashionmanager.lee.develop.service.CommentService;
+import fashionmanager.dto.CommentDTO;
+import fashionmanager.dto.CommentPostDTO;
+import fashionmanager.dto.CommentReactionDTO;
+import fashionmanager.service.CommentService;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;

@@ -1,6 +1,6 @@
-package fashionmanager.lee.develop.controller;
+package fashionmanager.controller;
 
-import fashionmanager.lee.develop.scheduler.MonthlyCountScheduler;
+import fashionmanager.scheduler.MonthlyCountScheduler;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;

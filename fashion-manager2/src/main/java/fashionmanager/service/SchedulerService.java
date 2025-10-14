@@ -1,6 +1,6 @@
-package fashionmanager.lee.develop.service;
+package fashionmanager.service;
 
-import fashionmanager.lee.develop.repository.SchedulerMemberRepository;
+import fashionmanager.repository.SchedulerMemberRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

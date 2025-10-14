@@ -1,12 +1,12 @@
-package fashionmanager.lee.develop.service;
+package fashionmanager.service;
 
-import fashionmanager.lee.develop.dto.CommentDTO;
-import fashionmanager.lee.develop.dto.CommentPostDTO;
-import fashionmanager.lee.develop.entity.Comment;
-import fashionmanager.lee.develop.entity.CommentReaction;
-import fashionmanager.lee.develop.mapper.CommentMapper;
-import fashionmanager.lee.develop.repository.CommentReactionRepository;
-import fashionmanager.lee.develop.repository.CommentRepository;
+import fashionmanager.dto.CommentDTO;
+import fashionmanager.dto.CommentPostDTO;
+import fashionmanager.entity.Comment;
+import fashionmanager.entity.CommentReaction;
+import fashionmanager.mapper.CommentMapper;
+import fashionmanager.repository.CommentReactionRepository;
+import fashionmanager.repository.CommentRepository;
 import java.util.List;
 import java.util.Optional;
 import lombok.RequiredArgsConstructor;

@@ -1,6 +1,6 @@
-package fashionmanager.lee.develop.mapper;
+package fashionmanager.mapper;
 
-import fashionmanager.lee.develop.dto.CommentDTO;
+import fashionmanager.dto.CommentDTO;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 

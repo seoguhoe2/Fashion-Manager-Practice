@@ -1,4 +1,4 @@
-package fashionmanager.lee.develop.entity;
+package fashionmanager.entity;
 
 import java.io.Serializable;
 import lombok.AllArgsConstructor;

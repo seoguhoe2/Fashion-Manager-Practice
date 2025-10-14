@@ -1,6 +1,6 @@
-package fashionmanager.lee.develop.scheduler;
+package fashionmanager.scheduler;
 
-import fashionmanager.lee.develop.service.SchedulerService;
+import fashionmanager.service.SchedulerService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.scheduling.annotation.Scheduled;

@@ -1,4 +1,4 @@
-package fashionmanager.lee.develop.dto;
+package fashionmanager.dto;
 
 import lombok.*;
 

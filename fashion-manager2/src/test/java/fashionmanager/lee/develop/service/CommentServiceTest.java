@@ -1,11 +1,12 @@
 package fashionmanager.lee.develop.service;
 
-import fashionmanager.lee.develop.dto.CommentDTO;
-import fashionmanager.lee.develop.dto.CommentPostDTO;
-import fashionmanager.lee.develop.entity.Comment;
+import fashionmanager.dto.CommentDTO;
+import fashionmanager.dto.CommentPostDTO;
+import fashionmanager.entity.Comment;
 import fashionmanager.entity.Member;
-import fashionmanager.lee.develop.repository.CommentRepository;
+import fashionmanager.repository.CommentRepository;
 import fashionmanager.repository.MemberRepository;
+import fashionmanager.service.CommentService;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
