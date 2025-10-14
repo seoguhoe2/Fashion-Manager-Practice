@@ -1,10 +1,10 @@
 package fashionmanager.kim.develop;
 
-import fashionmanager.kim.develop.dto.MessageCategoryDTO;
-import fashionmanager.kim.develop.dto.PhotoCategoryDTO;
-import fashionmanager.kim.develop.dto.ReportCategoryDTO;
-import fashionmanager.kim.develop.dto.ReviewCategoryDTO;
-import fashionmanager.kim.develop.service.CategoryService;
+import fashionmanager.dto.MessageCategoryDTO;
+import fashionmanager.dto.PhotoCategoryDTO;
+import fashionmanager.dto.ReportCategoryDTO;
+import fashionmanager.dto.ReviewCategoryDTO;
+import fashionmanager.service.CategoryService;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;

@@ -1,6 +1,5 @@
 package fashionmanager.dto;
 
-import fashionmanager.kim.develop.dto.HashTagDTO;
 import lombok.*;
 
 import java.util.List;

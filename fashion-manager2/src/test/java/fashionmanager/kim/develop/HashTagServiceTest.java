@@ -1,9 +1,8 @@
 package fashionmanager.kim.develop;
 
-import fashionmanager.kim.develop.dto.HashTagAndPostDTO;
-import fashionmanager.kim.develop.dto.HashTagDTO;
-import fashionmanager.kim.develop.entity.HashTag;
-import fashionmanager.kim.develop.service.HashTagService;
+import fashionmanager.dto.HashTagAndPostDTO;
+import fashionmanager.dto.HashTagDTO;
+import fashionmanager.service.HashTagService;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;

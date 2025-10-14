@@ -2,8 +2,8 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="fashionmanager.kim.develop.mapper.PhotoCategoryMapper">
-    <select id="selectAllPhotoCategories" resultType="fashionmanager.kim.develop.dto.PhotoCategoryDTO">
+<mapper namespace="fashionmanager.mapper.PhotoCategoryMapper">
+    <select id="selectAllPhotoCategories" resultType="fashionmanager.dto.PhotoCategoryDTO">
         SELECT
                A.NUM AS photoCategoryNum
              , A.NAME AS photoCategoryName

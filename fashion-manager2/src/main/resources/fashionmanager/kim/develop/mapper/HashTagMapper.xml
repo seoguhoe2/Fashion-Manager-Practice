@@ -2,8 +2,8 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="fashionmanager.kim.develop.mapper.HashTagMapper">
-    <resultMap id="hashTagMap" type="fashionmanager.kim.develop.dto.HashTagDTO">
+<mapper namespace="fashionmanager.mapper.HashTagMapper">
+    <resultMap id="hashTagMap" type="fashionmanager.dto.HashTagDTO">
         <id property="hashTagNum" column="NUM"/>
         <result property="hashTagName" column="NAME"/>
     </resultMap>
@@ -15,7 +15,7 @@
         FROM HASH_TAG A
     </select>
 
-    <select id="selectHashTagsAndPosts" resultType="fashionmanager.kim.develop.dto.HashTagAndPostDTO">
+    <select id="selectHashTagsAndPosts" resultType="fashionmanager.dto.HashTagAndPostDTO">
         SELECT
                B.NAME AS hashTagName
              , C.TITLE AS fashionPostContent

@@ -1,9 +1,9 @@
 package fashionmanager.kim.develop;
 
-import fashionmanager.kim.develop.dto.InsertMessageDTO;
-import fashionmanager.kim.develop.dto.MessageDTO;
-import fashionmanager.kim.develop.dto.SelectMassageDTO;
-import fashionmanager.kim.develop.service.MessageService;
+import fashionmanager.dto.InsertMessageDTO;
+import fashionmanager.dto.MessageDTO;
+import fashionmanager.dto.SelectMassageDTO;
+import fashionmanager.service.MessageService;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;

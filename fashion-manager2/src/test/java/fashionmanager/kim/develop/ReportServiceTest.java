@@ -1,7 +1,7 @@
 package fashionmanager.kim.develop;
 
-import fashionmanager.kim.develop.dto.ReportDTO;
-import fashionmanager.kim.develop.service.ReportService;
+import fashionmanager.dto.ReportDTO;
+import fashionmanager.service.ReportService;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;

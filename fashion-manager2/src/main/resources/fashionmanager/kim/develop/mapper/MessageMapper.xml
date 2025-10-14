@@ -2,8 +2,8 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="fashionmanager.kim.develop.mapper.MessageMapper">
-    <select id="selectAllMessages" resultType="fashionmanager.kim.develop.dto.MessageDTO">
+<mapper namespace="fashionmanager.mapper.MessageMapper">
+    <select id="selectAllMessages" resultType="fashionmanager.dto.MessageDTO">
         SELECT
                A.NUM AS messageNum
              , A.TITLE AS messageTitle
@@ -17,7 +17,7 @@
           FROM MESSAGE A
     </select>
 
-    <select id="selectSenderMessage" parameterType="string" resultType="fashionmanager.kim.develop.dto.SelectMassageDTO">
+    <select id="selectSenderMessage" parameterType="string" resultType="fashionmanager.dto.SelectMassageDTO">
         SELECT
                A.TITLE AS title
              , A.CONTENT AS content
@@ -34,7 +34,7 @@
          WHERE B.ID = #{senderId}
     </select>
 
-    <select id="selectReceiverMessage" parameterType="string" resultType="fashionmanager.kim.develop.dto.SelectMassageDTO">
+    <select id="selectReceiverMessage" parameterType="string" resultType="fashionmanager.dto.SelectMassageDTO">
         SELECT
             A.TITLE AS title
              , A.CONTENT AS content

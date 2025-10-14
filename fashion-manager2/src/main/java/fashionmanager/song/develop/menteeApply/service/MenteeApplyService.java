@@ -2,7 +2,7 @@ package fashionmanager.song.develop.menteeApply.service;
 
 import fashionmanager.entity.PhotoEntity;
 import fashionmanager.repository.PhotoRepository;
-import fashionmanager.kim.develop.repository.MemberRepository;
+import fashionmanager.repository.MemberRepository;
 import fashionmanager.song.develop.common.PhotoType;
 import fashionmanager.song.develop.menteeApply.aggregate.MenteeApplyEntity;
 import fashionmanager.song.develop.menteeApply.dto.MenteeApplyCreateRequestDTO;

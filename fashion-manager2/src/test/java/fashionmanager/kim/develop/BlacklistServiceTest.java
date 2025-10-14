@@ -1,14 +1,12 @@
 package fashionmanager.kim.develop;
 
-import fashionmanager.kim.develop.dto.BlacklistDTO;
-import fashionmanager.kim.develop.dto.ReviewCategoryDTO;
-import fashionmanager.kim.develop.service.BlacklistService;
+import fashionmanager.dto.BlacklistDTO;
+import fashionmanager.service.BlacklistService;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.stereotype.Service;
 
 import java.time.LocalDateTime;
 import java.util.List;

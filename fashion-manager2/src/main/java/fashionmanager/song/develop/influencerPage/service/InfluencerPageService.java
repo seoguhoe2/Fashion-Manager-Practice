@@ -2,7 +2,7 @@ package fashionmanager.song.develop.influencerPage.service;
 
 import fashionmanager.entity.PhotoEntity;
 import fashionmanager.repository.PhotoRepository;
-import fashionmanager.kim.develop.repository.MemberRepository;
+import fashionmanager.repository.MemberRepository;
 import fashionmanager.song.develop.common.PhotoType;
 import fashionmanager.song.develop.influencerPage.aggregate.InfluencerPageEntity;
 import fashionmanager.song.develop.influencerPage.dto.InfluencerPageCreateRequestDTO;
