@@ -2,7 +2,7 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="fashionmanager.baek.develop.mapper.ReviewPostMapper">
+<mapper namespace="fashionmanager.mapper.ReviewPostMapper">
     <sql id="criteria">
         <trim prefix="WHERE" prefixOverrides="OR">
             <if test='type != null and type.contains("T")'>
@@ -13,7 +13,7 @@
             </if>
         </trim>
     </sql>
-    <resultMap id="selectAllReviewPostMap" type="fashionmanager.baek.develop.dto.SelectAllReviewPostDTO">
+    <resultMap id="selectAllReviewPostMap" type="fashionmanager.dto.SelectAllReviewPostDTO">
         <id property="num" column="num"/>
         <result property="title" column="title"/>
         <result property="memberNum" column="member_num"/>
@@ -51,7 +51,7 @@
                count(*)
           FROM review_post rp
     </select>
-    <resultMap id="selectDetailPostResultMap" type="fashionmanager.baek.develop.dto.SelectDetailReviewPostDTO">
+    <resultMap id="selectDetailPostResultMap" type="fashionmanager.dto.SelectDetailReviewPostDTO">
         <id property="num" column="post_num"/>
         <result property="title" column="post_title"/>
         <result property="content" column="post_content"/>
@@ -62,12 +62,12 @@
         <result property="memberName" column="member_name"/>
 
 
-        <collection property="items" ofType="fashionmanager.baek.develop.dto.ItemDTO">
+        <collection property="items" ofType="fashionmanager.dto.ItemDTO">
             <id property="num" column="item_num"/>
             <result property="name" column="item_name"/>
         </collection>
 
-        <collection property="photos" ofType="fashionmanager.baek.develop.dto.PhotoDTO">
+        <collection property="photos" ofType="fashionmanager.dto.PhotoDTO">
             <id property="num" column="photo_num"/>
             <result property="name" column="photo_name"/>
             <result property="path" column="photo_path"/>

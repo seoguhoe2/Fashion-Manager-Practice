@@ -1,18 +1,14 @@
 package fashionmanager.baek.develop.service;
 
-import fashionmanager.baek.develop.dto.FashionRegistRequestDTO;
-import fashionmanager.baek.develop.dto.SelectAllFashionPostDTO;
-import fashionmanager.kim.develop.dto.BlacklistDTO;
+import fashionmanager.dto.SelectAllFashionPostDTO;
+import fashionmanager.service.FashionPostService;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
-import java.util.ArrayList;
 import java.util.List;
-
-import static org.junit.jupiter.api.Assertions.*;
 
 @SpringBootTest
 public class FashionPostServiceTest {

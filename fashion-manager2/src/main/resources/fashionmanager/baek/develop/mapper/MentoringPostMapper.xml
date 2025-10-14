@@ -2,7 +2,7 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="fashionmanager.baek.develop.mapper.MentoringPostMapper">
+<mapper namespace="fashionmanager.mapper.MentoringPostMapper">
     <sql id="criteria">
         <trim prefix="WHERE" prefixOverrides="OR">
             <if test='type != null and type.contains("T")'>
@@ -13,7 +13,7 @@
             </if>
         </trim>
     </sql>
-    <resultMap id="selectAllMentoringPostMap" type="fashionmanager.baek.develop.dto.SelectAllMentoringPostDTO">
+    <resultMap id="selectAllMentoringPostMap" type="fashionmanager.dto.SelectAllMentoringPostDTO">
         <id property="num" column="num"/>
         <result property="title" column="title"/>
         <result property="authorNum" column="author_num"/>
@@ -51,7 +51,7 @@
           LEFT JOIN
                member m ON mp.author_num = m.num
     </select>
-    <resultMap id="selectDetailPostResultMap" type="fashionmanager.baek.develop.dto.SelectDetailMentoringPostDTO">
+    <resultMap id="selectDetailPostResultMap" type="fashionmanager.dto.SelectDetailMentoringPostDTO">
         <id property="num" column="post_num"/>
         <result property="title" column="post_title"/>
         <result property="content" column="post_content"/>
@@ -60,7 +60,7 @@
         <result property="authorName" column="author_name"/>
 
 
-        <collection property="photos" ofType="fashionmanager.baek.develop.dto.PhotoDTO">
+        <collection property="photos" ofType="fashionmanager.dto.PhotoDTO">
             <id property="num" column="photo_num"/>
             <result property="name" column="photo_name"/>
             <result property="path" column="photo_path"/>
