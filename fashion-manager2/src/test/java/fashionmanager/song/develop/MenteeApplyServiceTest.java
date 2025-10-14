@@ -1,9 +1,8 @@
 package fashionmanager.song.develop;
 
-import fashionmanager.song.develop.influencerPage.dto.InfluencerPageResponseDTO;
-import fashionmanager.song.develop.menteeApply.dto.MenteeApplyCreateRequestDTO;
-import fashionmanager.song.develop.menteeApply.dto.MenteeApplyResponseDTO;
-import fashionmanager.song.develop.menteeApply.service.MenteeApplyService;
+import fashionmanager.dto.MenteeApplyCreateRequestDTO;
+import fashionmanager.dto.MenteeApplyResponseDTO;
+import fashionmanager.service.MenteeApplyService;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;

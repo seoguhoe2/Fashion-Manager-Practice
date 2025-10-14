@@ -1,9 +1,8 @@
 package fashionmanager.song.develop;
 
-import fashionmanager.song.develop.influencerPage.dto.InfluencerPageCreateRequestDTO;
-import fashionmanager.song.develop.influencerPage.dto.InfluencerPageResponseDTO;
-import fashionmanager.song.develop.influencerPage.service.InfluencerPageService;
-import jakarta.persistence.*;
+import fashionmanager.dto.InfluencerPageCreateRequestDTO;
+import fashionmanager.dto.InfluencerPageResponseDTO;
+import fashionmanager.service.InfluencerPageService;
 import org.junit.jupiter.api.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;

@@ -11,8 +11,15 @@ public class BaekWebConfig implements WebMvcConfigurer {
     @Value("${filepath}")
     private String uploadPath;
 
+    @Value("${C:/uploadFiles/**}")
+    private String uploadDir;
+
+
     @Override
     public void addResourceHandlers(ResourceHandlerRegistry registry) {
         registry.addResourceHandler("/images/**").addResourceLocations("file:///"+uploadPath);
+
+        registry.addResourceHandler("/files/**")
+                .addResourceLocations("file:///C:/uploadFiles/"); // 상위 폴더
     }
 }
