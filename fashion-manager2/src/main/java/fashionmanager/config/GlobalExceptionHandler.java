@@ -1,7 +1,6 @@
-package fashionmanager.song.develop.config;
+package fashionmanager.config;
 
 import jakarta.persistence.EntityNotFoundException;
-import jakarta.ws.rs.NotFoundException;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

@@ -1,4 +1,4 @@
-package fashionmanager.park.develop.common;
+package fashionmanager.common;
 
 
 import lombok.extern.slf4j.Slf4j;
