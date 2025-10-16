@@ -6,11 +6,11 @@
 # Gradle #
 .gradle/
 build/
-**/build/
-**/out/
+out/
 
 # Log files #
 *.log
+logs/
 log/
 
 # Compiled files #
